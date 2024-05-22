@@ -26,7 +26,7 @@ std::string VssExtension::Name() {
 	return "vss";
 }
 
-std::string VssExtension::Description() {
+std::string VssExtension::Description() const {
 	return "some words BLAAARGH";
 }
 
