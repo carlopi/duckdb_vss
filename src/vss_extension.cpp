@@ -26,6 +26,10 @@ std::string VssExtension::Name() {
 	return "vss";
 }
 
+std::string VssExtension::Description() {
+	return "some words BLAAARGH";
+}
+
 } // namespace duckdb
 
 extern "C" {
